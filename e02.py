@@ -3,16 +3,17 @@
 import requests
 from lxml import etree
 
-url = 'http://spiderbuf.cn/e02/list'
+url = 'https://spiderbuf.cn/playground/e02/list'
 
+# 注意：要把Cookie改成自己的 
 myheaders = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36',
-             'Cookie':'admin=d9d5ebe4783beff1f824fd8a7911db57'}
+             'Cookie':'admin=1f708f67a4fa699e9ed9bfdecb98c9a4'}
 
 payload = {'username':'admin','password':'123456'}
 
-html = requests.post(url, headers=myheaders, data=payload).text
+html = requests.get(url, headers=myheaders, data=payload).text
 print(html)
-
+exit();
 f = open('./data/e02/e02.html', 'w', encoding='utf-8')
 f.write(html)
 f.close()

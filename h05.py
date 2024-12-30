@@ -8,7 +8,7 @@ from lxml import etree
 from selenium import webdriver
 
 
-base_url = 'http://www.spiderbuf.cn/h05'
+base_url = 'https://www.spiderbuf.cn/playground/h05'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
@@ -16,6 +16,7 @@ myheaders = {
 def getHTML(url,file_name=''):
     client = webdriver.Chrome()
     client.get(url)
+    time.sleep(5)
     html = client.page_source
     print(html)
     client.quit()
@@ -47,18 +48,18 @@ def parseHTML(html,file_name=''):
 
 if __name__ == '__main__':
     # example: 1
-    # html = getHTML(base_url, './data/h05/h05.html')
+    html = getHTML(base_url, './data/h05/h05.html')
     # parseHTML(html, './data/h04/h04.txt')
 
     # example: 2
-    url = 'http://spiderbuf.cn/h05/api/'
-    timestamp = str(int(time.time()))
-    md5_hash = hashlib.md5()
-    md5_hash.update(timestamp.encode('utf-8'))
-    md5 = md5_hash.hexdigest()
-    s = ('%s,%s' % (timestamp, md5))
-    print(s)
-    payload = str(base64.b64encode(s.encode('utf-8')), 'utf-8')
-    print(payload)
-    html = requests.get(url + payload, headers=myheaders).text
-    print(html)
+    # url = 'http://spiderbuf.cn/playground/h05/api/'
+    # timestamp = str(int(time.time()))
+    # md5_hash = hashlib.md5()
+    # md5_hash.update(timestamp.encode('utf-8'))
+    # md5 = md5_hash.hexdigest()
+    # s = ('%s,%s' % (timestamp, md5))
+    # print(s)
+    # payload = str(base64.b64encode(s.encode('utf-8')), 'utf-8')
+    # print(payload)
+    # html = requests.get(url + payload, headers=myheaders).text
+    # print(html)

@@ -3,7 +3,7 @@
 import requests
 from lxml import etree
 
-url = 'http://spiderbuf.cn/e01/login'
+url = 'http://spiderbuf.cn/playground/e01/login'
 
 myheaders = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
 

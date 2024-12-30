@@ -3,7 +3,7 @@
 import requests
 from lxml import etree
 
-url = 'http://www.spiderbuf.cn/s01'
+url = 'https://www.spiderbuf.cn/playground/s01'
 
 html = requests.get(url).text
 

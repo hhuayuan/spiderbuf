@@ -3,10 +3,10 @@
 import requests
 from lxml import etree
 
-url = 'http://www.spiderbuf.cn/n01/'
+url = 'http://www.spiderbuf.cn/playground/n01'
 
 myheaders = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36',
-             'Referer':'http://www.spiderbuf.cn/list'}
+             'Referer':'https://spiderbuf.cn/list'}
 
 html = requests.get(url, headers=myheaders).text
 print(html)

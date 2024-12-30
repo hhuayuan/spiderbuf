@@ -2,11 +2,14 @@
 import base64
 import hashlib
 import time
+
 import requests
 from lxml import etree
 from selenium import webdriver
 
-base_url = 'http://www.spiderbuf.cn/h06'
+
+base_url = 'https://www.spiderbuf.cn/playground/h06'
+
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
 
@@ -17,6 +20,7 @@ def getHTML(url,file_name=''):
     # print(html)
     # client.quit()
     options = webdriver.ChromeOptions()
+    options.add_argument('disable-infobars')
     # options.add_argument('headless')
     options.set_capability('goog:loggingPrefs', {'browser': 'ALL'})  # 输出浏览器console 日志：console.log
 
@@ -24,10 +28,11 @@ def getHTML(url,file_name=''):
 
     client = webdriver.Chrome(options=options)
     client.get(url)
+    time.sleep(5)
     print(client.page_source)
     html = client.page_source
-
-    client.quit()
+    
+    # client.quit()
 
     if file_name != '':
         with open(file_name, 'w', encoding='utf-8') as f:
@@ -61,7 +66,7 @@ if __name__ == '__main__':
     # parseHTML(html, './data/h06/h06.txt')
 
     # example: 2
-    # url = 'http://spiderbuf.cn/h06/api/'
+    # url = 'http://spiderbuf.cn/playground/h06/api/'
     # timestamp = str(int(time.time()))
     # md5_hash = hashlib.md5()
     # md5_hash.update(timestamp.encode('utf-8'))

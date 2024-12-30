@@ -5,7 +5,7 @@ import requests
 from lxml import etree
 import time
 
-base_url = 'http://www.spiderbuf.cn/h03/'
+base_url = 'https://www.spiderbuf.cn/playground/h03'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     i = 1
     while (uri != '') & (i < 10):
         print(uri)
-        html = getHTML(base_url + uri, f'./data/h03/h03_{uri}.html')
+        html = getHTML(base_url + '/' +  uri, f'./data/h03/h03_{uri}.html')
         uri = '' # ***
         root = etree.HTML(html)
         divs = root.xpath('//div[@id="sLaOuol2SM0iFj4d"]/text()')

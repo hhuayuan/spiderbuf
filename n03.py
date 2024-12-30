@@ -4,7 +4,7 @@ import requests
 from lxml import etree
 import time
 
-base_url = 'http://www.spiderbuf.cn/n03/%d'
+base_url = 'https://www.spiderbuf.cn/playground/n03/%d'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}

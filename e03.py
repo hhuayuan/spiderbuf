@@ -4,7 +4,7 @@ import requests
 from lxml import etree
 import re
 
-base_url = 'http://spiderbuf.cn/e03'
+base_url = 'http://spiderbuf.cn/playground/e03'
 # http://spiderbuf.cn/e03/5f685274073b
 
 myheaders = {
