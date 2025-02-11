@@ -20,9 +20,10 @@ Python3.8.10
 # 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
-| [C03](https://spiderbuf.cn/playground/c03 "自由练习") | 自由练习 | 2025-01-15 |
-| [C02](https://spiderbuf.cn/playground/c02 "自由练习") | 自由练习 | 2024-12-16 |
-| [C01](https://spiderbuf.cn/playground/c01 "自由练习") | 自由练习 | 2024-11-17 |
+| [C04](https://spiderbuf.cn/playground/c04 "爬虫实战练习") | 爬虫实战练习 | 2025-02-11 |
+| [C03](https://spiderbuf.cn/playground/c03 "爬虫实战练习") | 爬虫实战练习 | 2025-01-15 |
+| [C02](https://spiderbuf.cn/playground/c02 "爬虫实战练习") | 爬虫实战练习 | 2024-12-16 |
+| [C01](https://spiderbuf.cn/playground/c01 "爬虫实战练习") | 爬虫实战练习 | 2024-11-17 |
 | [N07](https://spiderbuf.cn/playground/n07 "随机CSS样式类名，无Element ID") | 随机CSS样式类名，无Element ID | 2024-09-08 |
 | [E04](https://spiderbuf.cn/playground/e04 "被屏蔽IP后使用代理服务器爬取页面") | 被屏蔽IP后使用代理服务器爬取页面 | 2024-07-23 |
 | [N06](https://spiderbuf.cn/playground/n06 "网页表单爬取（RPA初阶）") | 网页表单爬取（RPA初阶） | 2024-03-26 |
