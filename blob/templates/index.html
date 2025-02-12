@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频流爬虫 - Spiderbuf</title>
+</head>
+<body>
+    <div style="margin: auto;width: 800px;text-align: center;">
+        <h1>视频流爬虫 - Spiderbuf</h1>
+        <h2>src="blob:https://spiderbuf.cn....."</h2>
+        <video id="video-player" width="100%" controls>
+            <source id="video-source" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script>
+        const videoElement = document.getElementById('video-player');
+        const videoSource = document.getElementById('video-source');
+
+        // 使用 fetch 获取视频流
+        fetch('/video')
+            .then(response => {
+                const videoBlob = response.blob();  // 获取 Blob 对象
+                return videoBlob;
+            })
+            .then(blob => {
+                // 创建一个 URL 对象，将 Blob 转换成 URL
+                const videoUrl = URL.createObjectURL(blob);
+                videoSource.src = videoUrl;  // 设置视频源
+                videoElement.load();  // 刷新 video 元素
+                videoElement.play();  // 播放视频
+            })
+            .catch(error => {
+                console.error("Error loading video: ", error);
+            });
+    </script>
+</body>
+</html>
