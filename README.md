@@ -20,6 +20,7 @@ Python3.8.10
 # 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C05](https://spiderbuf.cn/playground/c05 "爬虫实战练习") | 爬虫实战练习 | 2025-02-26 |
 | [C04](https://spiderbuf.cn/playground/c04 "爬虫实战练习") | 爬虫实战练习 | 2025-02-11 |
 | [C03](https://spiderbuf.cn/playground/c03 "爬虫实战练习") | 爬虫实战练习 | 2025-01-15 |
 | [C02](https://spiderbuf.cn/playground/c02 "爬虫实战练习") | 爬虫实战练习 | 2024-12-16 |
