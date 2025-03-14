@@ -4,8 +4,8 @@ import requests
 from lxml import etree
 import re
 
-base_url = 'http://spiderbuf.cn/playground/e03'
-# http://spiderbuf.cn/e03/5f685274073b
+base_url = 'https://spiderbuf.cn/web-scraping-practice/scraping-random-pagination'
+# https://spiderbuf.cn/e03/5f685274073b
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
@@ -14,19 +14,14 @@ myheaders = {
 html = requests.get(base_url, headers=myheaders).text
 root = etree.HTML(html)
 print(html)
-# <li><span>共5页</span></li>
-# <li><a href="./2fe6286a4e5f">1</a></li>
-# <li><a href="./5f685274073b">2</a></li>
-# <li><a href="./279fcd874c72">3</a></li>
-# <li><a href="./8a3d4d640516">4</a></li>
-# <li><a href="./fbd076c39d28">5</a></li>
+
 lis = root.xpath('//ul[@class="pagination"]/li/a/@href')
 print(lis)
-# ['./2fe6286a4e5f', './5f685274073b', './279fcd874c72', './8a3d4d640516', './fbd076c39d28']
+
 i = 1
 for item in lis:
     print(item)
-    s = item.replace('.','')
+    s = item.replace('/web-scraping-practice/scraping-random-pagination','')
     print(base_url + s)
     url = base_url + s
     # print(url)

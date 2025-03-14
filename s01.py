@@ -3,7 +3,7 @@
 import requests
 from lxml import etree
 
-url = 'https://www.spiderbuf.cn/playground/s01'
+url = 'https://spiderbuf.cn/web-scraping-practice/requests-lxml-for-scraping-beginner'
 
 html = requests.get(url).text
 

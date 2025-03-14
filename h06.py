@@ -8,7 +8,7 @@ from lxml import etree
 from selenium import webdriver
 
 
-base_url = 'https://www.spiderbuf.cn/playground/h06'
+base_url = 'https://spiderbuf.cn/web-scraping-practice/selenium-fingerprint-anti-scraper'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
@@ -66,7 +66,7 @@ if __name__ == '__main__':
     # parseHTML(html, './data/h06/h06.txt')
 
     # example: 2
-    # url = 'http://spiderbuf.cn/playground/h06/api/'
+    # url = 'https://spiderbuf.cn/web-scraping-practice/selenium-fingerprint-anti-scraper/api/'
     # timestamp = str(int(time.time()))
     # md5_hash = hashlib.md5()
     # md5_hash.update(timestamp.encode('utf-8'))

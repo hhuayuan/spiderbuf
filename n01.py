@@ -3,22 +3,14 @@
 import requests
 from lxml import etree
 
-url = 'http://www.spiderbuf.cn/playground/n01'
+url = 'https://spiderbuf.cn/web-scraping-practice/user-agent-referrer'
 
 myheaders = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36',
              'Referer':'https://spiderbuf.cn/list'}
 
 html = requests.get(url, headers=myheaders).text
 print(html)
-# < div class ="container" >
-# < div class ="row" style="margin-top: 30px" >
-# < div class ="col-xs-6 col-lg-4" style="margin-bottom: 30px;" >
-# < h2 > 腾讯控股 < / h2 >
-# < p > 排名：1 < / p >
-# < p > 企业估值(亿元)：39000 < / p >
-# < p > CEO：马化腾 < / p >
-# < p > 行业：互联网服务 < / p >
-# < / div > <!-- /.col - xs - 6.col - lg - 4 -->
+
 f = open('./data/n01/n01.html', 'w', encoding='utf-8')
 f.write(html)
 f.close()

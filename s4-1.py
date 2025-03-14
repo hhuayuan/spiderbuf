@@ -4,7 +4,7 @@ import requests
 from lxml import etree
 import re
 
-url = 'http://www.spiderbuf.cn/playground/s04?pageno=2&pagesize=50'
+url = 'https://spiderbuf.cn/web-scraping-practice/web-pagination-scraper?pageno=2&pagesize=50'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}

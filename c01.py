@@ -4,11 +4,11 @@ import requests
 from lxml import etree
 import numpy as np
 
-base_url = 'https://spiderbuf.cn/playground/c01/mnist'
+base_url = 'https://spiderbuf.cn/web-scraping-practice/scraper-practice-c01/mnist'
 
 my_headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36',
-    'Referer': 'https://spiderbuf.cn/playground/c01',
+    'Referer': 'https://spiderbuf.cn/web-scraping-practice/c01',
     'Cookie': '__cgf3t=G0gzgFKDRlLtmZH7NrzqOb1x4pek1xNQk12KKc4g21Y-1731624199;'}
 
 

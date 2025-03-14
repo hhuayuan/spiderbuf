@@ -3,18 +3,14 @@
 import requests
 from lxml import etree
 
-url = 'http://spiderbuf.cn/playground/h01'
+url = 'https://spiderbuf.cn/web-scraping-practice/scraping-css-confuse-offset'
 
 myheaders = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36',
-             'Referer':'http://www.spiderbuf.cn/list'}
+             'Referer':'https://spiderbuf.cn/list'}
 
 html = requests.get(url, headers=myheaders).text
 print(html)
-# <h2><i style="width: 32px;position: relative; left: 32px;">德</i><i style="width: 32px;position: relative; left: -32px;">宁</i><i style="width: 32px;position: relative;">时</i><i style="width: 32px;position: relative;">代</i></h2>
-#             <p>排名：5</p>
-#             <p>企业估值(亿元)：<i style="width: 14px;position: relative; left: 10px;">4</i><i style="width: 14px;position: relative; left: -10px;">1</i><i style="width: 14px;position: relative;">9</i><i style="width: 14px;position: relative;">0</i></p>
-#             <p>CEO：曾毓群</p>
-#             <p>行业：锂电池</p>
+
 f = open('./data/h01/h01.html', 'w', encoding='utf-8')
 f.write(html)
 f.close()

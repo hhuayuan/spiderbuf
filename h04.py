@@ -6,7 +6,7 @@ from selenium import webdriver
 import time
 
 
-base_url = 'https://www.spiderbuf.cn/playground/h04'
+base_url = 'https://spiderbuf.cn/web-scraping-practice/javascript-confuse-encrypt-reverse'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}

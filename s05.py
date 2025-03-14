@@ -3,7 +3,7 @@
 import requests
 from lxml import etree
 
-url = 'http://www.spiderbuf.cn/playground/s05'
+url = 'https://spiderbuf.cn/web-scraping-practice/scraping-images-from-web'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
@@ -20,7 +20,7 @@ root = etree.HTML(html)
 imgs = root.xpath('//img/@src')
 print(imgs)
 for item in imgs:
-    img_data = requests.get('http://spiderbuf.cn' + item, headers=myheaders).content
+    img_data = requests.get('https://spiderbuf.cn' + item, headers=myheaders).content
     img = open(str(item).replace('/',''), 'wb')
     img.write(img_data)
     img.close()

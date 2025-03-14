@@ -5,7 +5,7 @@ import requests
 from lxml import etree
 import time
 
-base_url = 'https://www.spiderbuf.cn/playground/h03'
+base_url = 'https://spiderbuf.cn/web-scraping-practice/scraping-scroll-load'
 
 myheaders = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36'}
@@ -50,7 +50,7 @@ def parseHTML(html):
             img_urls = div.xpath('./div/div/img/@src')
             img_url = ''
             if len(img_urls) > 0:
-                img_url = 'http://spiderbuf.cn/' + img_urls[0]
+                img_url = 'https://spiderbuf.cn/' + img_urls[0]
             print(img_url)
             downloadImage(img_url, './data/h02')
             # 评分 /html/body/div[2]/div[2]  /div/div[2]/span[1]
