@@ -1,25 +1,27 @@
-# spiderbuf
-Spiderbuf 示例代码
+# Spiderbuf 爬虫练习网站
+Spiderbuf 爬虫实战案例示例代码
 
-# 官方网站
+## 官方网站
 https://spiderbuf.cn
 
-Spiderbuf 是一个python爬虫学习及练习网站：
+专注于 Python 爬虫练习的网站.
 
-保姆式引导关卡 + 免费在线视频教程，从Python环境的搭建到最简单的网页爬取，让零基础的小白也能获得成就感。
+提供丰富的爬虫教程、爬虫案例解析和爬虫练习题.
 
-在已经入门的基础上强化练习，在矛与盾的攻防中不断提高技术水平，通过大量的模仿练习掌握常见的爬与反爬套路。
+Python爬虫开发强化练习，在矛与盾的攻防中不断提高技术水平，通过大量的爬虫实战掌握常见的爬虫与反爬套路。
 
-以闯关的形式挑战各个关卡任务，验证自身实力的时候到了。
+引导式爬虫案例 + 免费爬虫视频教程，以闯关的形式挑战各个爬虫任务，培养爬虫开发的直觉及经验，验证自身爬虫开发与反爬虫实力的时候到了。
 
-# 代码运行环境
+## 代码运行环境
 Ubuntu 20.04.6 LTS
+macOS 15+
 
-Python3.8.10
+Python3.8+
 
-# 更新日志
+## 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C06](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c06 "JavaScript 逆向爬虫实战案例") | JavaScript 逆向爬虫实战案例 | 2025-04-15 |
 | [C05](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c05 "爬虫实战练习") | 爬虫实战练习 | 2025-02-26 |
 | [C04](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c04 "爬虫实战练习") | 爬虫实战练习 | 2025-02-11 |
 | [C03](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c03 "爬虫实战练习") | 爬虫实战练习 | 2025-01-15 |
@@ -50,3 +52,8 @@ Python3.8.10
 | [S03](https://spiderbuf.cn/web-scraping-practice/lxml-xpath-advanced "lxml库进阶语法及解析练习") | lxml库进阶语法及解析练习 | 2021-06-21 |
 | [S02](https://spiderbuf.cn/web-scraping-practice/scraper-http-header "http请求分析及头构造使用") | http请求分析及头构造使用 | 2021-06-21 |
 | [S01](https://spiderbuf.cn/web-scraping-practice/requests-lxml-for-scraping-beginner "requests库及lxml库入门") | requests库及lxml库入门 | 2021-06-21 |
+
+# 课程
+[《深入了解Python爬虫攻防》](https://www.udemy.com/course/python-spiderbuf/?referralCode=77D640F3DB5A310151DB "深入了解Python爬虫攻防")
+
+[《Axure RP 9 从入门到精通：打造高保真交互原型》](https://www.udemy.com/course/axure-rp-9/?referralCode=3374A9C2D8B735FC54A1 "Axure RP 9 从入门到精通：打造高保真交互原型")
