@@ -21,6 +21,7 @@ Python3.8+
 ## 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C07](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c07 "JavaScript 逆向爬虫实战案例") | JavaScript 逆向爬虫实战案例 | 2025-05-14 |
 | [C06](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c06 "JavaScript 逆向爬虫实战案例") | JavaScript 逆向爬虫实战案例 | 2025-04-15 |
 | [C05](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c05 "爬虫实战练习") | 爬虫实战练习 | 2025-02-26 |
 | [C04](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c04 "爬虫实战练习") | 爬虫实战练习 | 2025-02-11 |
