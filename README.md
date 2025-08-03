@@ -1,10 +1,12 @@
 # Spiderbuf 爬虫练习网站
-Spiderbuf 爬虫实战案例示例代码
+
+Spiderbuf 网络爬虫实战案例示例代码
 
 ## 官方网站
+
 https://spiderbuf.cn
 
-[爬虫实战练习列表](https://spiderbuf.cn/web-scraping-practices)
+[爬虫实战练习](https://spiderbuf.cn/web-scraping-practices)
 
 专注于 Python 爬虫练习的网站.
 
@@ -15,14 +17,15 @@ Python爬虫开发强化练习，在矛与盾的攻防中不断提高技术水�
 引导式爬虫案例 + 免费爬虫视频教程，以闯关的形式挑战各个爬虫任务，培养爬虫开发的直觉及经验，验证自身爬虫开发与反爬虫实力的时候到了。
 
 ## 代码运行环境
-Ubuntu 20.04.6 LTS
-macOS 15+
+
+Ubuntu 20.04.6 LTS \ macOS 15+
 
 Python3.8+
 
 ## 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C10](https://spiderbuf.cn/web-scraping-practice/scraper-practice-js-reverse-c10 "JS逆向爬虫案例练习") | JS逆向爬虫案例练习 | 2025-08-03 |
 | [C09](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c09 "JS逆向爬虫案例练习") | JS逆向爬虫案例练习 | 2025-07-15 |
 | [C08](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c08 "JS逆向爬虫实战练习（金融数据）") | JS逆向爬虫实战练习（金融数据） | 2025-05-31 |
 | [C07](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c07 "JavaScript 逆向爬虫实战案例") | JavaScript 逆向爬虫实战案例 | 2025-05-14 |
