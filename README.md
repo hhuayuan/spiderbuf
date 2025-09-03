@@ -25,6 +25,7 @@ Python3.8+
 ## 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C11](https://spiderbuf.cn/web-scraping-practice/scraper-practice-js-reverse-c11 "JS逆向爬虫案例练习") | JS逆向爬虫案例练习 | 2025-09-02 |
 | [C10](https://spiderbuf.cn/web-scraping-practice/scraper-practice-js-reverse-c10 "JS逆向爬虫案例练习") | JS逆向爬虫案例练习 | 2025-08-03 |
 | [C09](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c09 "JS逆向爬虫案例练习") | JS逆向爬虫案例练习 | 2025-07-15 |
 | [C08](https://spiderbuf.cn/web-scraping-practice/scraper-practice-c08 "JS逆向爬虫实战练习（金融数据）") | JS逆向爬虫实战练习（金融数据） | 2025-05-31 |
@@ -60,6 +61,16 @@ Python3.8+
 | [S03](https://spiderbuf.cn/web-scraping-practice/lxml-xpath-advanced "lxml库进阶语法及解析练习") | lxml库进阶语法及解析练习 | 2021-06-21 |
 | [S02](https://spiderbuf.cn/web-scraping-practice/scraper-http-header "http请求分析及头构造使用") | http请求分析及头构造使用 | 2021-06-21 |
 | [S01](https://spiderbuf.cn/web-scraping-practice/requests-lxml-for-scraping-beginner "requests库及lxml库入门") | requests库及lxml库入门 | 2021-06-21 |
+
+## 💰 Donation
+If you appreciate my creations, kindly consider backing me. Your support is greatly appreciated. Thank you!
+
+### WechatPay
+
+![wechatpay](https://github.com/hhuayuan/spiderbuf/blob/main/docs/weixinpay99.png)
+
+### AliPay
+![alipay](https://github.com/hhuayuan/spiderbuf/blob/main/docs/alipay99.png)
 
 # 课程
 [《深入了解Python爬虫攻防》](https://www.udemy.com/course/python-spiderbuf/?referralCode=77D640F3DB5A310151DB "深入了解Python爬虫攻防")
