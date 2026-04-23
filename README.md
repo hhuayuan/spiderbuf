@@ -25,6 +25,7 @@ Python3.8+
 ## 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C14](https://spiderbuf.cn/challenge/anti-simulate-web-browser "主流模拟浏览器检测对抗") | 主流模拟浏览器检测对抗 | 2026-04-23 |
 | [C13](https://spiderbuf.cn/challenge/challenge-c13 "JS网络爬虫JS逆向实战练习") | API 参数签名与分块传输 | 2026-03-18 |
 | [C12](https://spiderbuf.cn/challenge/challenge-js-reverse-c12 "JS网络爬虫JS逆向实战练习") | AES 密钥混淆与 Selenium 高级对抗 | 2025-11-17 |
 | [C11](https://spiderbuf.cn/challenge/scraper-practice-js-reverse-c11 "JS逆向爬虫案例练习") | Web Workers 多线程反调试 | 2025-09-02 |
