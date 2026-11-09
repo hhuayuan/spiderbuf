@@ -9,11 +9,14 @@ https://spiderbuf.cn
 
 [爬虫实战练习](https://spiderbuf.cn/challenges)
 
-专业的爬虫练习靶场。
+## 专业的爬虫练习靶场。
 
 从基础 HTML 解析到复杂的 JS 逆向渲染，提供全场景数据抓取练习环境。
 
 无需配置环境，打开浏览器即可实战。
+
+## 爬虫在线工具
+[爬虫在线工具](https://spiderbuf.cn/tools)
         
 
 ## 代码运行环境
@@ -25,6 +28,7 @@ Python3.8+
 ## 更新日志
 | 编号 | 名称 | 更新日期 |
 | ---- | ---- | ---- |
+| [C15](https://spiderbuf.cn/challenge/web-scraping-practice-multiple-encrypt "多脚本文件混淆反调试") | 多脚本文件混淆反调试 | 2026-10-22 |
 | [C14](https://spiderbuf.cn/challenge/anti-simulate-web-browser "主流模拟浏览器检测对抗") | 主流模拟浏览器检测对抗 | 2026-04-23 |
 | [C13](https://spiderbuf.cn/challenge/challenge-c13 "JS网络爬虫JS逆向实战练习") | API 参数签名与分块传输 | 2026-03-18 |
 | [C12](https://spiderbuf.cn/challenge/challenge-js-reverse-c12 "JS网络爬虫JS逆向实战练习") | AES 密钥混淆与 Selenium 高级对抗 | 2025-11-17 |
