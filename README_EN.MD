@@ -7,7 +7,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/hhuayuan/spiderbuf)
 ![GitHub Forks](https://img.shields.io/github/forks/hhuayuan/spiderbuf)
 
-[简体中文](README.md) | [English](README_EN.md)
+[简体中文](README.MD) | [English](README_EN.MD)
 
 Spiderbuf is a hands-on Python web scraping practice platform. It provides practical tutorials, step-by-step case studies, and interactive challenges to help developers improve their web scraping skills.
 

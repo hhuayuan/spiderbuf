@@ -6,7 +6,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/hhuayuan/spiderbuf)
 ![GitHub Forks](https://img.shields.io/github/forks/hhuayuan/spiderbuf)
 
-[简体中文](README.md) | [English](README_EN.md)
+[简体中文](README.MD) | [English](README_EN.MD)
 
 Spiderbuf 是一个侧重实操的 Python 网络爬虫练习平台。它提供实用教程、循序渐进的案例分析以及互动式挑战，旨在帮助开发者提升网络爬虫技能。
 
